@@ -1,0 +1,33 @@
+{
+  "name": "dynamodb-to-local",
+  "version": "1.0.1",
+  "author": "Dan Stanhope",
+  "homepage": "https://github.com/danstanhope/dynamodb-to-local",
+  "description": "Export DynamoDB table data to csv format on local machine",
+  "keywords": [
+    "dynamodb",
+    "csv",
+    "node.js",
+    "aws"
+  ],
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "scripts": {
+    "test": "eslint src test && mocha ./test/**/*.js",
+    "release" : "npm publish"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.6.3",
+    "chai": "^4.1.2",
+    "commander": ">=2.2.0",
+    "eslint": "^3.19.0",
+    "json2csv": "^3.11.5",
+    "mocha": "^3.2.0",
+    "should": "^13.2.1"
+  }
+}
+
+
+
+
