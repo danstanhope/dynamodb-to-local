@@ -8,7 +8,7 @@ Pretty neat does as described. Extracts the contents of a DynamoDB table and cre
 
 ## Let's get going
 ```javascript
-npm install
+npm install dynamodb-to-local
 ```
 
 ## Describe Table

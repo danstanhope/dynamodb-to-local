@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-to-local",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Dan Stanhope",
   "homepage": "https://github.com/danstanhope/dynamodb-to-local",
   "description": "Export DynamoDB table data to csv format on local machine",
