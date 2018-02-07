@@ -22,11 +22,3 @@ node dynamodb-to-local.js -d <TABLENAME>
 ```javascript
 node dynamodb-to-local.js -t <TABLENAME> -f <FILENAME>
 ```
-
-git filter-branch --index-filter \
-'git rm --cached --ignore-unmatch config.js'
-
-
-git filter-branch --force --index-filter \
-'git rm --cached --ignore-unmatch dynamodb-to-local/src/config.json' \
---prune-empty --tag-name-filter cat -- --all
